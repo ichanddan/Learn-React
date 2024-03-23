@@ -16,7 +16,7 @@ import propTypes from 'prop-types';
         export const LearnProps = ({name,age,address}) => {
             return (
                 <div>
-        <h1>{name}</h1>
+        <h1 className='bg-red-900'>{name}</h1>
         <h2>{age}</h2>
         <h3>{address}</h3>
     </div>
