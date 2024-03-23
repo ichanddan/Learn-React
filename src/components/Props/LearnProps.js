@@ -1,6 +1,7 @@
 import React from 'react';
 import propTypes from 'prop-types';
 import { TurnryOprater } from '../TurnyOprater/TurnryOprater';
+import { State } from '../Hooks/State';
 
 // // step 1  =>>>
 // export const LearnProps = (props) => {
@@ -21,6 +22,7 @@ import { TurnryOprater } from '../TurnyOprater/TurnryOprater';
         <h2>{age}</h2>
         <h3>{address}</h3>
         <TurnryOprater/>
+        <State/>
     </div>
   )
 }
