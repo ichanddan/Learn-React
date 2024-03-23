@@ -1,5 +1,6 @@
 import React from 'react';
 import propTypes from 'prop-types';
+import { TurnryOprater } from '../TurnyOprater/TurnryOprater';
 
 // // step 1  =>>>
 // export const LearnProps = (props) => {
@@ -19,6 +20,7 @@ import propTypes from 'prop-types';
         <h1 className='bg-red-900'>{name}</h1>
         <h2>{age}</h2>
         <h3>{address}</h3>
+        <TurnryOprater/>
     </div>
   )
 }

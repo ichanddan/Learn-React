@@ -9,18 +9,16 @@ function App() {
     <Navbar/>
       <Routes>
         <Route path="/" element={<LearnProps name="Chandan Kumar Maurya" age={44} address="Pipari Rayan Bhadohi"/>} />
-        {/* <div className='flex justify-evenly items-center'> */}
-        <Route path="/movie" element={Movies.map((dm)=>{
+        <Route path="/movie" element={Movies.map((element,index)=>{
           return(
             <Movie 
-              Title={dm.title}
-              Year={dm.year}
-              Poster={dm.poster_url}
-              className="main"
+              key={index}
+              Title={element.title}
+              Year={element.year}
+              Poster={element.poster_url}
           />
           );
         })} />
-        {/* </div> */}
       </Routes> 
     </BrowserRouter>
   );
