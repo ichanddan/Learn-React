@@ -93,8 +93,8 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="md:p-4 py-2 block hover:text-purple-400" href="#">
-                    Pricing
+                  <Link className="md:p-4 py-2 block hover:text-purple-400" to="/effect">
+                    Effect
                   </Link>
                 </li>
                 <li>

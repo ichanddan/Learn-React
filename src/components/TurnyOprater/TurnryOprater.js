@@ -5,7 +5,7 @@ export const TurnryOprater = () => {
   return (
     <div>
         {
-            login==false ? <h1>Hello bro</h1> : <h1>Hi baby</h1>
+            login===false ? <h1>Hello bro</h1> : <h1>Hi baby</h1>
         }
     </div>
   )
