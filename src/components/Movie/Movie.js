@@ -1,17 +1,14 @@
 import React from "react";
 
 export const Movie = (props) => {
+  document.title = "Movie";
   return (
-    <div>
-        <div>
-            <div className="border w-1/5 shadow-2xl m-5 rounded-md h-full">
-                <img className="w-full h-72" src={props.Poster} alt={props.Title}/>
-                <div className="p-2">
-                    <p>{props.Year}</p>
-                    <h1 className="font-bold text-2xl">{props.Title}</h1>
-                </div> 
-            </div>
-        </div>
+    <div className="w-3/12 h-3/12 border h-3/4 shadow-2xl m-2">
+      <img className="w-full h-48" src={props.poster} alt={props.title} />
+      <div className="p-2">
+        <p>{props.year}</p>
+        <h1 className="font-bold text-xs">{props.title}</h1>
+      </div>
     </div>
   );
 };

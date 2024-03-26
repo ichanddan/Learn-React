@@ -42,7 +42,62 @@
     {
       "title": "The Lord of the Rings: The Return of the King",
       "year": 2003,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/9d/Lord_of_the_Rings_-_The_Return_of_the_King.jpg"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg"
+    },
+    {
+      "title": "Fight Club",
+      "year": 1999,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg"
+    },
+    {
+      "title": "Inception",
+      "year": 2010,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg"
+    },
+    {
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg"
+    },
+    {
+      "title": "The Dark Knight",
+      "year": 2008,
+      "poster_url": "https://m.media-amazon.com/images/S/pv-target-images/e7b7d8cd6d9c8507509582806643c59ff675487bc592bbdcf85403ec92f6a9aa.jpg"
+    },
+    {
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg"
+    },
+    {
+      "title": "Forrest Gump",
+      "year": 1994,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg"
+    },
+    {
+      "title": "The Godfather",
+      "year": 1972,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg"
+    },
+    {
+      "title": "The Godfather: Part II",
+      "year": 1974,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/03/Godfather_part_ii.jpg"
+    },
+    {
+      "title": "Schindler's List",
+      "year": 1993,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg"
+    },
+    {
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg"
+    },
+    {
+      "title": "Fight Club",
+      "year": 1999,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg"
     },
     {
       "title": "Fight Club",
