@@ -98,8 +98,8 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="md:p-4 py-2 block hover:text-purple-400" href="#">
-                    Customers
+                  <Link className="md:p-4 py-2 block hover:text-purple-400" to="/context">
+                    context
                   </Link>
                 </li>
                 <li>
