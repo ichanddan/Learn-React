@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import { Effect } from "./components/Hooks/Effect";
 import Data from "./components/Movie/Data";
 import { CompA } from "./components/context/CompA";
+import Ref from "./components/Hooks/Ref";
 
 const AppData=createContext();
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/effect" element={<Effect />} />
         <Route path="/movie" element={<Data />} />
         <Route path="/context" element={<CompA />} />
+        <Route path="/ref" element={<Ref />} />
       </Routes>
     </BrowserRouter>
     </AppData.Provider>
