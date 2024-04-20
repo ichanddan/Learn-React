@@ -5,13 +5,16 @@ export const Effect = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
     async function getData() {
-      const get = await fetch(
-        `https://hub.dummyapis.com/employee?noofRecords=${state}&idStarts=1001`
-      );
-
-      const res = await get.json();
-      setData(res);
-      console.log(res);
+      try {
+        const get = await fetch(
+          `https://hub.dummyapis.com/employee?noofRecords=${state}&idStarts=1001`
+        );
+  
+        const res = await get.json();
+        setData(res);
+      } catch (error) {
+        console.error(error)
+      }
     }
     document.title=`${state} Empoloy online`
     getData();
