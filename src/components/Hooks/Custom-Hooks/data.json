@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1001,
+      "imageUrl": "https://hub.dummyapis.com/Image?text=CL&height=120&width=120",
+      "firstName": "Connie",
+      "lastName": "Lemke",
+      "email": "Connie.Lemke@dummyapis.com",
+      "contactNumber": "4655697153",
+      "age": 70,
+      "dob": "19/11/1954",
+      "salary": 1.0,
+      "address": "Address1"
+    },
+    {
+      "id": 1002,
+      "imageUrl": "https://hub.dummyapis.com/Image?text=JF&height=120&width=120",
+      "firstName": "Jovanny",
+      "lastName": "Franecki",
+      "email": "Jovanny.Franecki@dummyapis.com",
+      "contactNumber": "4605993292",
+      "age": 82,
+      "dob": "05/11/1942",
+      "salary": 2.0,
+      "address": "Address2"
+    },
+    {
+      "id": 1003,
+      "imageUrl": "https://hub.dummyapis.com/Image?text=EK&height=120&width=120",
+      "firstName": "Elton",
+      "lastName": "Kautzer",
+      "email": "Elton.Kautzer@dummyapis.com",
+      "contactNumber": "4549991058",
+      "age": 51,
+      "dob": "11/01/1973",
+      "salary": 3.0,
+      "address": "Address3"
+    },
+    {
+      "id": 1004,
+      "imageUrl": "https://hub.dummyapis.com/Image?text=SA&height=120&width=120",
+      "firstName": "Santos",
+      "lastName": "Abbott",
+      "email": "Santos.Abbott@dummyapis.com",
+      "contactNumber": "4365199374",
+      "age": 46,
+      "dob": "23/11/1978",
+      "salary": 4.0,
+      "address": "Address4"
+    },
+    {
+      "id": 1005,
+      "imageUrl": "https://hub.dummyapis.com/Image?text=LR&height=120&width=120",
+      "firstName": "Lionel",
+      "lastName": "Ratke",
+      "email": "Lionel.Ratke@dummyapis.com",
+      "contactNumber": "4509898332",
+      "age": 60,
+      "dob": "29/04/1964",
+      "salary": 5.0,
+      "address": "Address5"
+    }
+  ]

@@ -7,6 +7,7 @@ import Data from "./components/Movie/Data";
 import { CompA } from "./components/context/CompA";
 import Ref from "./components/Hooks/Ref";
 import Reducer from "./components/Hooks/Reducer";
+import Custom_hook from "./components/Hooks/Custom-Hooks/Custom_hook";
 
 const AppData=createContext();
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/context" element={<CompA />} />
         <Route path="/ref" element={<Ref />} />
         <Route path="/reducer" element={<Reducer />} />
+        <Route path="/custom-hooks" element={<Custom_hook />} />
       </Routes>
     </BrowserRouter>
     </AppData.Provider>
